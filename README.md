@@ -81,3 +81,41 @@ WordPair # provides several helpful getters, such as asPascalCase or asSnakeCase
 Flutter Code Formatting 
 
 https://docs.flutter.dev/development/tools/formatting 
+
+Flutter code often involves building fairly deep tree-shaped data structures,
+for example in a build method. To get good automatic formatting,
+we recommend you adopt the optional trailing commas. The guideline for adding 
+a trailing comma is simple: Always add a trailing comma at the end of a parameter 
+list in functions, methods, and constructors where you care about keeping the 
+formatting you crafted. This helps the automatic formatter to insert an appropriate
+amount of line breaks for Flutter-style code.
+
+### getNext()
+- All that remains is to call the getNext method from the button's callback.
+## Making app prettier
+### Extract a widget
+- The line responsible for showing the current word pair looks like this now: Text(appState.current.asLowerCase). To change it into something more complex, it's a good idea to extract this line into a separate widget. Having separate widgets for separate logical parts of your UI is an important way of managing complexity in Flutter.
+## Add a Card
+
+## refactor 
+### extract widget 
+- select text click on refactor 
+- click on extract widget 
+- Enter the name of widget
+- a class will be created as your Entered Names
+### padding
+- select text
+- right click
+- select refactor
+- select wrap with padding
+- Press Enter
+
+// Note: Flutter uses Composition over Inheritance whenever it can. Here, instead of padding being an attribute of Text, it's a widget!
+
+// This way, widgets can focus on their single responsibility, and you, the developer, have total freedom in how to compose your UI. For example, you can use the Padding widget to pad text, images, buttons, your own custom widgets, or the whole app. The widget doesn't care what it's wrapping.
+
+### Theme and Style
+
+### Functionality
+
+
