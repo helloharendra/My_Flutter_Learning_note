@@ -65,20 +65,22 @@ Ex. 1.StatelessWidget
  class myApp (){ #the starting point of your app.
 
  } 
- MyAppState # defines state of your app
- MyAppState # defines the data the app needs to function. Right now, it only contains a single variable with the current random word pair. You will add to this later.
- ChangeNotifier  # way to manage app state in flutter. also maney powefull ways are avialable.
-                 # The state class extends ChangeNotifier which means that it can notify others about its own changes.
+ - MyAppState # defines state of your app
+ - MyAppState # defines the data the app needs to function. Right now, it only contains a single variable with the - - -current random word pair. You will add to this later.
+ - ChangeNotifier
+ - way to manage app state in flutter. also maney powefull ways are avialable.
+                 
+- The state class extends ChangeNotifier which means that it can notify others about its own changes.
 
-# Every widget defines a build() method that's automatically called every time the widget's circumstances change so that the widget is always up to date.
-# MyHomePage tracks changes to the app's current state using the watch method.
+- Every widget defines a build() method that's automatically called every time the widget's circumstances change so that the widget is always up to date.
+- MyHomePage tracks changes to the app's current state using the watch method.
 
-Scaffold () :  # it's a helpful widget and is found in the vast majority of real-world Flutter apps.
-Column () :   # is one of the most basic layout widgets in Flutter.
+- Scaffold () :  # it's a helpful widget and is found in the vast majority of real-world Flutter apps.
+- Column () :   # is one of the most basic layout widgets in Flutter.
 
-WordPair # provides several helpful getters, such as asPascalCase or asSnakeCase. Here, we use asLowerCase
+- WordPair # provides several helpful getters, such as asPascalCase or asSnakeCase. Here, we use asLowerCase
 
-Flutter Code Formatting 
+### Flutter Code Formatting 
 
 https://docs.flutter.dev/development/tools/formatting 
 
@@ -90,14 +92,14 @@ list in functions, methods, and constructors where you care about keeping the
 formatting you crafted. This helps the automatic formatter to insert an appropriate
 amount of line breaks for Flutter-style code.
 
-### getNext()
+- getNext()
 - All that remains is to call the getNext method from the button's callback.
-## Making app prettier
-### Extract a widget
+- Making app prettier
+- Extract a widget
 - The line responsible for showing the current word pair looks like this now: Text(appState.current.asLowerCase). To change it into something more complex, it's a good idea to extract this line into a separate widget. Having separate widgets for separate logical parts of your UI is an important way of managing complexity in Flutter.
-## Add a Card
+### Add a Card
 
-## refactor 
+### refactor 
 ### extract widget 
 - select text click on refactor 
 - click on extract widget 
