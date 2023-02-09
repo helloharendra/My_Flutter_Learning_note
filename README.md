@@ -12,31 +12,30 @@ Flutter transforms the app development process.
 Build, test, and deploy beautiful mobile,
  web, desktop, and embedded apps from a single codebase.
 
-# developer    
-    developed By Google.
-  ###  
-    introduced in 2015.
-    released in 2017.
+### who develope    
+   - developed By Google. 
+   - introduced in 2015.
+   - released in 2017.
 
-# instalation
+### instalation
 
 
-# setup envoirement
+#### setup envoirement
 
-open the command palette. .
-shift+cmd+p on mac os.
-shift+ctrl+p on windows.
+- open the command palette. .
+- shift+cmd+p on mac os.
+- shift+ctrl+p on windows.
 
-type flutter new project 
-select  select flutter new  project
-select application
-select project path where you want to put your project.
-enter your Project name
+- type flutter new project 
+- select  select flutter new  project
+- select application
+- select project path where you want to put your project.
+- enter your Project name
 
-press enter 
-Ooooo... its done
-you can do anything here that you want in your project.
-here mean lib/main.dart ## under lib folder main.dart is available.
+- press enter 
+#### Ooooo... its done
+- you can do anything here that you want in your project.
+- here mean lib/main.dart ## under lib folder main.dart is available.
 
 # first flutter app
 copy paste from official documentation
