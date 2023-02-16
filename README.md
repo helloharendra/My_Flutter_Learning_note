@@ -152,7 +152,7 @@ amount of line breaks for Flutter-style code.
 
 - FittedBox ('Scales and positions its child within itself according to fit.')
 - FractionallySizedBox
-- LayoutBuilder
+- LayoutBuilder 
 - MediaQuery
 - MediaQueryData
 - OrientationBuilder
