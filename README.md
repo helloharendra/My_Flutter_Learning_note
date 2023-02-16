@@ -17,7 +17,7 @@ Build, test, and deploy beautiful mobile,
    - introduced in 2015.
    - released in 2017.
 
-### instalation
+### installation
 
 
 #### setup envoirement
@@ -126,6 +126,7 @@ amount of line breaks for Flutter-style code.
 5. Non-Material apps.
 
 # Task done
+
 - create a layout
 - add image
 - add title
@@ -141,8 +142,8 @@ amount of line breaks for Flutter-style code.
 
 
 ## Creating responsive and adaptive apps
-#### LayoutBuilder class
-- Builds a widget tree that can depend on the parent widget's size.
+
+- LayoutBuilder class 'Builds a widget tree that can depend on the parent widget's size.'
 - AspectRatio ('A widget that attempts to size the child to a specific aspect ratio.').
 - CustomSingleChildLayout('A widget that defers the layout of its single child to a delegate.')
 
