@@ -162,13 +162,13 @@ amount of line breaks for Flutter-style code.
 
 ## Single child
 
-- Align—Aligns- 
+- Align—Aligns-
     a child within itself. It takes a double value between -1 and 1, for both the vertical and horizontal alignment.
 
-- AspectRatio—
+- AspectRatio
     Attempts to size the child to a specific aspect ratio.
 
-- ConstrainedBox—
+- ConstrainedBox
     Imposes size constraints on its child, offering control over the minimum or maximum size.
 
 - CustomSingleChildLayout—
