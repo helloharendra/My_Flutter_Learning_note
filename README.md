@@ -202,5 +202,22 @@ amount of line breaks for Flutter-style code.
 
 - Wrap—Displays its children in multiple horizontal or vertical runs.
 
+- Animation
+'The primary building block of the animation system is the Animation class. An animation represents a value of a specific type that can change over the lifetime of the animation. Most widgets that perform an animation receive an Animation object as a parameter, from which they read the current value of the animation and to which they listen for changes to that value.'
+
+- addListener
+' Whenever the animation’s value changes, the animation notifies all the listeners added with addListener. Typically, a State object that listens to an animation calls setState on itself in its listener callback to notify the widget system that it needs to rebuild with the new value of the animation. '
+- AnimatedWidget,
+'is most useful for stateless animated widgets'
+- AnimatedBuilder,
+'is useful for more complex widgets that wish to include an animation as part of a larger build function.'
+
+- addStatusListener
+' Animations also provide an AnimationStatus, which indicates how the animation will evolve over time. '
+
+- Animation­Controller
+' '
+
+
 
 
